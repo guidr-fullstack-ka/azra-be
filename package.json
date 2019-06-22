@@ -1,0 +1,38 @@
+{
+  "name": "guidr-fullstack-azra-be",
+  "version": "1.0.0",
+  "description": "backend project for Guidr",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --watch --verbose",
+    "server": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/guidr-fullstack-ka/azra-be"
+  },
+  "keywords": [
+    "lambda",
+    "testing"
+  ],
+  "author": "Lambda School",
+  "bugs": {
+    "url": "https://github.com/guidr-fullstack-ka/azra-be/issues"
+  },
+  "homepage": "https://github.com/guidr-fullstack-ka/azra-be#readme",
+  "devDependencies": {
+    "jest": "^24.8.0"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "connect-session-knex": "^1.4.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-session": "^1.16.2",
+    "helmet": "^3.18.0",
+    "jsonwebtoken": "^8.5.1",
+    "knex": "^0.17.6",
+    "nodemon": "^1.19.1",
+    "sqlite3": "^4.0.9"
+  }
+}
